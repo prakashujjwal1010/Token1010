@@ -1,5 +1,7 @@
 # Token1010Sale
-Dapp to implement ICO or sale of Token1010
+
+Dapp to implement ICO or sale of Token1010.
+
 Token1010 - an implementation of ERC20 Token supported by ethereum.
 The project is developed using truffle framework.
 
