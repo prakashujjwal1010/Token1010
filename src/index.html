@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Token1010</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/truffle-contract.js"></script>
+  <script src="js/App.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+
+      <div class="jumbotron">
+           <div class=" text-center">
+             <img src='ethereum-logo.png' alt="ethereum-logo" class="img-fluid">
+           </div>
+           <div >
+             <h1 class="font-weight-bold display-1 text-center">WELCOME TO THE ICO OF TOKEN1010</h1>
+           </div>
+      </div>
+
+      <div class="row card-deck">
+          <div class="card" >
+            <img class="card-img-top" src="user.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title font-weight-bold">ADMIN</h4>
+              <p class="card-text font-weight-bold">for the pupose of starting ,ending sale</p>
+              <div>
+                <label for="usr">NUMBER OF TOKENS TO MINT:</label>
+                <input type="number" class="form-control" id="initial" value="0">
+                <button type="button" name="button" class="btn btn-success" id="start">START SALE</button>
+                <button type="button" name="button" class="btn btn-success" id="end">END SALE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" >
+            <img class="card-img-top" src="buyer.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title font-weight-bold">BUYER</h4>
+              <p class="card-text font-weight-bold">for the pupose of buying tokens</p>
+              <label for="usr">NUMBER OF TOKENS:</label>
+              <input type="number" class="form-control" id="noOfTokens" value="0">
+
+              <button type="submit" class="btn btn-success" id="buy">BUY</button>
+
+            </div>
+          </div>
+
+          <div class="card" >
+             <img class="card-img-top" src="coin.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title font-weight-bold">T1010 ACCOUNT</h4>
+              <p class="card-text font-weight-bold">YOUR CURRENT ACCOUNT ADDRESS</p>
+              <p class="card-text font-weight-bold" id="ac"></p>
+              <p class="card-text font-weight-bold">your T1010's balance:</p>
+              <p class="card-text font-weight-bold" id="balance"></p>
+            </div>
+          </div>
+
+      </div>
+      <br>
+      <br>
+      <div class="jumbotron">
+        <a href="https://github.com/prakashujjwal1010" class="font-weight-bold display-4 text-center">DAPP DEVELOPED BY PRAKASHUJJWAL1010</a>
+      </div>
+    </div>
+
+  </body>
+</html>
