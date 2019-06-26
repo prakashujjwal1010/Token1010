@@ -14,7 +14,9 @@ links-
 ### Prerequisites
 
 1)truffle
+
 2)ganache
+
 3)metamask
 
 
@@ -28,12 +30,13 @@ links-
 
 ```bash
 truffle compile
+```
 
 4)deploy the solidity smart contracts 
 
 ```bash
 truffle migrate
-``````
+```
 5)connect metamask to your local test blockchain using seed phrase provided by ganache
 
 6)run index.html
@@ -42,7 +45,7 @@ truffle migrate
 
 ```bash
 truffle test
-``````
+```
 
 ## Authors
 
